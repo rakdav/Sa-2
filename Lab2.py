@@ -27,13 +27,38 @@
 
 from math import *
 
-x=float(input("Введите x:"))
-y=float(input("Введите y:"))
-print((x**2+y**2)<=4)
-print((x>=0) or (y!=4))
-print((x<=0) and (y!=4))
-print((x*y!=0) and (y>x))
-print((x*y!=0) or (y<x))
-print(not (x*y<0) and (y>x))
-print(not (x*y<0) or (y>x))
-print((x**2-y**2)<=0)
+# x=float(input("Введите x:"))
+# y=float(input("Введите y:"))
+# print((x**2+y**2)<=4)
+# print((x>=0) or (y!=4))
+# print((x<=0) and (y!=4))
+# print((x*y!=0) and (y>x))
+# print((x*y!=0) or (y<x))
+# print(not (x*y<0) and (y>x))
+# print(not (x*y<0) or (y>x))
+# print((x**2-y**2)<=0)
+
+# a=float(input("Enter a number a: "))
+# S=a**2
+# b=sqrt(S/2)
+# print("{:7.2f}".format(sqrt(S/b**2)))
+
+# from math import sqrt
+# a = float(input("введите число"))
+# h = float(input("введите число"))
+# b = float(input("введите число"))
+# s1 = a**2
+# s2 = b**2
+# v = h*(s1 + sqrt(s1*s2) + s2) / 3
+# print("v=","{:7.2f}".format(v))
+
+import math
+
+#Средний уровень 5 вариант
+from math import *
+t=float(input("Введите t:"))
+p=3
+k=sqrt(p*t)
+x=p*t**2+sqrt(k)
+y=tan(x**2)**3+k*t
+print("y=","{:7.2f}".format(y))
